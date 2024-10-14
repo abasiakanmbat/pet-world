@@ -11,7 +11,7 @@ export default function Connection() {
     <div>
         <div className='md:flex   place-content-between bg-[#F7F5FD] py-11' >
                 <div className=' mx-auto py-10 px-5 md:py-0'>
-                    <p className='w-fit mx-auto text-center md:text-left text-6xl md:text-[49px] lg:text-[78px] font-semibold  md:ml-[40px]' >Let's Talk, <br/> Woof!</p>
+                    <p className='w-fit mx-auto text-center md:text-left text-6xl md:text-[49px] lg:text-[71px] font-semibold  md:ml-[40px]' >Let's Talk, <br/> Woof!</p>
                     <p style={{ paddingTop: 50, fontSize: 17, textShadow: '2px 2px 4px #000000' }} className='md:ml-[40px] text-[#424242] text-center md:text-left'>
                         You can ask us questions about your pet,<br/>
                         and we will be happy to answer you!
