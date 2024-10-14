@@ -37,10 +37,9 @@ export const propertyList = [
     }
 ]
 export default function Propertycard() {
-    const mapList = propertyList.map(mapitems =>
+    const mapList = propertyList.map(mapitems  => 
 
-
-        <div className='px-5 text-center mt-16 md:mt-0'>
+        <div key={mapitems.image} className='px-5 text-center mt-16 md:mt-0'>
             <div className='   h-24 content-center flex justify-center items-center '>
                 <div className='w-fit '>
                     <img className=' ' src={mapitems.image} alt="" />
@@ -48,12 +47,12 @@ export default function Propertycard() {
                 </div>
             </div>
             <h1 className='font-semibold text-xl py-5 '>{mapitems.title}</h1>
-            <p>
+            <div>
                 <div>{mapitems.text1} </div>
                 <div>{mapitems.text2} </div>
                 <div>{mapitems.text3} </div>
 
-            </p>
+            </div>
         </div>
 
 

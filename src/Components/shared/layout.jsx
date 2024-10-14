@@ -14,7 +14,7 @@ export default function Layout() {
                 <Link className='' to="/"> <img src={logo} alt="" />  </Link>
 
                 <div className='hidden md:flex gap-5 '>
-                    <Link to="signUp, "><Buttons text={"Sign Up "} bg={"#fff"} color={'black'} width={'150px'} /></Link>
+                    <Link to="signUp"><Buttons text={"Sign Up "} bg={"#fff"} color={'black'} width={'150px'} /></Link>
 
                     <Link to="login"><Buttons text={"Log in"} bg={"#3366FF"} color={'white'} width={'150px'} /></Link>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import dogpic from "/DogPic.png"
 import Buttons from '../Components/shared/buttons' 
-
+import { Link } from "react-router-dom";
 export default function Hero() {
     return (
         <div>
@@ -13,11 +13,11 @@ export default function Hero() {
                         created with Figma <br className='hidden md:block' /> and Anima.<br className='md:hidden' /> No coding involved.
                     </p>
                     <div className='text-center md:text-left mt-12 md:ml-10 '>
-                        <Buttons text={"Get started"} bg={"#fde68a"} width={"150px"} />
-
+                        
+                        <Link to="signUp"><Buttons text={"Get started"} bg={"#fde68a"} width={"150px"} /></Link>
                     </div>
                 </div>
-                <div className=' border mx-auto ml-11 pr-11 mt-10 md:mt-0 flex justify-center  px-5'>
+                <div className=' mx-auto ml-11 pr-11 mt-10 md:mt-0 flex justify-center  px-5'>
                     <div className='w-fit '>
                     <img src={dogpic} alt="" />
 
