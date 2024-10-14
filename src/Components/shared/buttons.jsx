@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Buttons({color, bg, width, text}) {
+export default function Buttons({color, bg, width, text, handle}) {
+  
     const but = {
         backgroundColor: bg,
         color:color, 
@@ -10,7 +11,7 @@ export default function Buttons({color, bg, width, text}) {
     }
   return (
     <div >
-    <button className='' style={but} >{text}</button>
+    <button onClick={handle} className='' style={but} >{text}</button>
     
     </div>
   )

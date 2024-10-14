@@ -11,8 +11,23 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
- 
+
 
 }
 
 
+
+@media only screen and (max-width: 768px) {
+  .w3school{
+    width: 360px;
+    height: 202.6px;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .w3school{
+    width: 400px;
+    height: 225px;
+  }
+}
