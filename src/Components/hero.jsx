@@ -14,7 +14,7 @@ export default function Hero() {
                     </p>
                     <div className='text-center md:text-left mt-12 md:ml-10 '>
                         
-                        <Link to="signUp"><Buttons text={"Get started"} bg={"#fde68a"} width={"150px"} /></Link>
+                        <Link to="/signUp"><Buttons text={"Get started"} bg={"#fde68a"} width={"150px"} /></Link>
                     </div>
                 </div>
                 <div className=' mx-auto ml-11 pr-11 mt-10 md:mt-0 flex justify-center  px-5'>

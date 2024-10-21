@@ -19,7 +19,9 @@ function App() {
             <Route path="/" element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="login" element={<Login />} />
+              <Route path="/pet-world/login" element={<Login />} />
               <Route path="signUp" element={<SignUp />} />
+              <Route path="/pet-world/signUp" element={<SignUp />} />
               <Route path="*" element={<NoPage />} />
               <Route path="pet-world/" element={<Home />} />
             </Route>
