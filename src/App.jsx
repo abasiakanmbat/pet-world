@@ -21,6 +21,7 @@ function App() {
               <Route path="login" element={<Login />} />
               <Route path="signUp" element={<SignUp />} />
               <Route path="*" element={<NoPage />} />
+              <Route path="pet-world/" element={<Home />} />
             </Route>
           </Routes>
         </BrowserRouter>

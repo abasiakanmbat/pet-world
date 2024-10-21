@@ -5,6 +5,7 @@ import Connection from '../Components/shared/connection'
 import VideoPath from '../Components/videoPath'
 import Logos from '../Components/shared/logos'
 import ManSection from '../Components/shared/manSection'
+import LastView from '../Components/lastView'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
   <PetProperties/>
    <ManSection/>
   <Connection/>
+  <LastView/>
   </>
  
   )
